@@ -33,9 +33,7 @@ class ViewController: UITableViewController {
 			selectedCellIndexPath = indexPath
 		}
 		
-		// These two calls makes the cell animate to its new height
-		tableView.beginUpdates()
-		tableView.endUpdates()
+		animateCellHeighChangeForTableView(tableView, withDuration: 0.3)
 		
 		if selectedCellIndexPath != nil {
 			// This ensures, that the cell is fully visible once expanded
@@ -48,6 +46,14 @@ class ViewController: UITableViewController {
 			return selectedCellHeight
 		}
 		return unselectedCellHeight
+	}
+	
+	private func animateCellHeighChangeForTableView(tableView: UITableView, withDuration duration: Double) {
+		UIView.animateWithDuration(duration) { () -> Void in
+			// These two calls make the cell animate to its new height
+			tableView.beginUpdates()
+			tableView.endUpdates()
+		}
 	}
 	
 }
