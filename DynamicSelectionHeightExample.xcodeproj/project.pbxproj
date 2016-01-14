@@ -12,26 +12,7 @@
 		5E7B74A51C47D742002D8D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B74A31C47D742002D8D5D /* Main.storyboard */; };
 		5E7B74A71C47D742002D8D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B74A61C47D742002D8D5D /* Assets.xcassets */; };
 		5E7B74AA1C47D742002D8D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B74A81C47D742002D8D5D /* LaunchScreen.storyboard */; };
-		5E7B74B51C47D742002D8D5D /* DynamicSelectionHeightExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B74B41C47D742002D8D5D /* DynamicSelectionHeightExampleTests.swift */; };
-		5E7B74C01C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B74BF1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5E7B74B11C47D742002D8D5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E7B74941C47D742002D8D5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E7B749B1C47D742002D8D5D;
-			remoteInfo = DynamicSelectionHeightExample;
-		};
-		5E7B74BC1C47D742002D8D5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E7B74941C47D742002D8D5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E7B749B1C47D742002D8D5D;
-			remoteInfo = DynamicSelectionHeightExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5E7B749C1C47D742002D8D5D /* DynamicSelectionHeightExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicSelectionHeightExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		5E7B74A61C47D742002D8D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E7B74A91C47D742002D8D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E7B74AB1C47D742002D8D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E7B74B01C47D742002D8D5D /* DynamicSelectionHeightExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicSelectionHeightExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E7B74B41C47D742002D8D5D /* DynamicSelectionHeightExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSelectionHeightExampleTests.swift; sourceTree = "<group>"; };
-		5E7B74B61C47D742002D8D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E7B74BB1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicSelectionHeightExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E7B74BF1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSelectionHeightExampleUITests.swift; sourceTree = "<group>"; };
-		5E7B74C11C47D742002D8D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E7B74991C47D742002D8D5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E7B74AD1C47D742002D8D5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E7B74B81C47D742002D8D5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				5E7B749E1C47D742002D8D5D /* DynamicSelectionHeightExample */,
-				5E7B74B31C47D742002D8D5D /* DynamicSelectionHeightExampleTests */,
-				5E7B74BE1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests */,
 				5E7B749D1C47D742002D8D5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				5E7B749C1C47D742002D8D5D /* DynamicSelectionHeightExample.app */,
-				5E7B74B01C47D742002D8D5D /* DynamicSelectionHeightExampleTests.xctest */,
-				5E7B74BB1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				5E7B74AB1C47D742002D8D5D /* Info.plist */,
 			);
 			path = DynamicSelectionHeightExample;
-			sourceTree = "<group>";
-		};
-		5E7B74B31C47D742002D8D5D /* DynamicSelectionHeightExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E7B74B41C47D742002D8D5D /* DynamicSelectionHeightExampleTests.swift */,
-				5E7B74B61C47D742002D8D5D /* Info.plist */,
-			);
-			path = DynamicSelectionHeightExampleTests;
-			sourceTree = "<group>";
-		};
-		5E7B74BE1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5E7B74BF1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.swift */,
-				5E7B74C11C47D742002D8D5D /* Info.plist */,
-			);
-			path = DynamicSelectionHeightExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = 5E7B749C1C47D742002D8D5D /* DynamicSelectionHeightExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E7B74AF1C47D742002D8D5D /* DynamicSelectionHeightExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E7B74C71C47D742002D8D5D /* Build configuration list for PBXNativeTarget "DynamicSelectionHeightExampleTests" */;
-			buildPhases = (
-				5E7B74AC1C47D742002D8D5D /* Sources */,
-				5E7B74AD1C47D742002D8D5D /* Frameworks */,
-				5E7B74AE1C47D742002D8D5D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E7B74B21C47D742002D8D5D /* PBXTargetDependency */,
-			);
-			name = DynamicSelectionHeightExampleTests;
-			productName = DynamicSelectionHeightExampleTests;
-			productReference = 5E7B74B01C47D742002D8D5D /* DynamicSelectionHeightExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5E7B74BA1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E7B74CA1C47D742002D8D5D /* Build configuration list for PBXNativeTarget "DynamicSelectionHeightExampleUITests" */;
-			buildPhases = (
-				5E7B74B71C47D742002D8D5D /* Sources */,
-				5E7B74B81C47D742002D8D5D /* Frameworks */,
-				5E7B74B91C47D742002D8D5D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E7B74BD1C47D742002D8D5D /* PBXTargetDependency */,
-			);
-			name = DynamicSelectionHeightExampleUITests;
-			productName = DynamicSelectionHeightExampleUITests;
-			productReference = 5E7B74BB1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +96,6 @@
 				TargetAttributes = {
 					5E7B749B1C47D742002D8D5D = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					5E7B74AF1C47D742002D8D5D = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 5E7B749B1C47D742002D8D5D;
-					};
-					5E7B74BA1C47D742002D8D5D = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 5E7B749B1C47D742002D8D5D;
 					};
 				};
 			};
@@ -218,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				5E7B749B1C47D742002D8D5D /* DynamicSelectionHeightExample */,
-				5E7B74AF1C47D742002D8D5D /* DynamicSelectionHeightExampleTests */,
-				5E7B74BA1C47D742002D8D5D /* DynamicSelectionHeightExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +128,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E7B74AE1C47D742002D8D5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E7B74B91C47D742002D8D5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E7B74AC1C47D742002D8D5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E7B74B51C47D742002D8D5D /* DynamicSelectionHeightExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E7B74B71C47D742002D8D5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E7B74C01C47D742002D8D5D /* DynamicSelectionHeightExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5E7B74B21C47D742002D8D5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E7B749B1C47D742002D8D5D /* DynamicSelectionHeightExample */;
-			targetProxy = 5E7B74B11C47D742002D8D5D /* PBXContainerItemProxy */;
-		};
-		5E7B74BD1C47D742002D8D5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E7B749B1C47D742002D8D5D /* DynamicSelectionHeightExample */;
-			targetProxy = 5E7B74BC1C47D742002D8D5D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5E7B74A31C47D742002D8D5D /* Main.storyboard */ = {
@@ -415,52 +265,6 @@
 			};
 			name = Release;
 		};
-		5E7B74C81C47D742002D8D5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DynamicSelectionHeightExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaiengelhardt.DynamicSelectionHeightExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicSelectionHeightExample.app/DynamicSelectionHeightExample";
-			};
-			name = Debug;
-		};
-		5E7B74C91C47D742002D8D5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DynamicSelectionHeightExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaiengelhardt.DynamicSelectionHeightExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicSelectionHeightExample.app/DynamicSelectionHeightExample";
-			};
-			name = Release;
-		};
-		5E7B74CB1C47D742002D8D5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DynamicSelectionHeightExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaiengelhardt.DynamicSelectionHeightExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = DynamicSelectionHeightExample;
-			};
-			name = Debug;
-		};
-		5E7B74CC1C47D742002D8D5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DynamicSelectionHeightExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaiengelhardt.DynamicSelectionHeightExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = DynamicSelectionHeightExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -480,22 +284,7 @@
 				5E7B74C61C47D742002D8D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5E7B74C71C47D742002D8D5D /* Build configuration list for PBXNativeTarget "DynamicSelectionHeightExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E7B74C81C47D742002D8D5D /* Debug */,
-				5E7B74C91C47D742002D8D5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5E7B74CA1C47D742002D8D5D /* Build configuration list for PBXNativeTarget "DynamicSelectionHeightExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E7B74CB1C47D742002D8D5D /* Debug */,
-				5E7B74CC1C47D742002D8D5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
